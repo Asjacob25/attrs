@@ -416,7 +416,7 @@ class TestGenerator:
           logging.error(f"File {test_file} was not created.")
       return test_file
 
-  def run(self):
+  def run(self): 
       """Main execution method."""
       changed_files = self.get_changed_files()
       if not changed_files:
