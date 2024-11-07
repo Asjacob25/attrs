@@ -4,7 +4,7 @@ import inspect
 import platform
 import sys
 import threading
-#stuff
+#stufff
 from collections.abc import Mapping, Sequence  # noqa: F401
 from typing import _GenericAlias
 
