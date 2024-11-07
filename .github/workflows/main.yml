@@ -56,7 +56,7 @@ jobs:
          OPENAI_MAX_TOKENS: "2000"  # Set default max tokens
        run: |
          echo "Generating tests for: ${{ env.CHANGED_FILES }}"
-         python latest_generate_tests.py "${{ env.CHANGED_FILES }}"
+         python generate_tests.py "${{ env.CHANGED_FILES }}"
      - name: Create unique branch name
        if: env.CHANGED_FILES != ''
        run: |
